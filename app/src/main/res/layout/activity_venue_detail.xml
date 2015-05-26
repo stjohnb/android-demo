@@ -16,7 +16,7 @@
         android:layout_height="280dp"
         android:layout_gravity="center_horizontal"
         android:background="@color/debug_cyan"
-        />
+        android:contentDescription="@string/image_text" />
 
     <TextView
         android:id="@+id/detail_text"
