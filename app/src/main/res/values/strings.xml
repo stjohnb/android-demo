@@ -2,5 +2,8 @@
     <string name="app_name">My Application</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="venue_detail">Venue detail</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_venue_detail">VenueDetailActivity</string>
+    <string name="button_value">lorem ipsum</string>
 </resources>
