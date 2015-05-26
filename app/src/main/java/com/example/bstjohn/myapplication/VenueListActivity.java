@@ -1,12 +1,12 @@
 package com.example.bstjohn.myapplication;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-    
 
-public class VenueListActivity extends ActionBarActivity {
+
+public class VenueListActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
