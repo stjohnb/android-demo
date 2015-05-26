@@ -15,6 +15,7 @@ import com.squareup.picasso.Picasso;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
+import hugo.weaving.DebugLog;
 
 
 public class VenueDetailActivity extends Activity {
@@ -32,7 +33,7 @@ public class VenueDetailActivity extends Activity {
     @InjectView((R.id.detail_open_in_browser))
     Button btn;
 
-
+    @DebugLog
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +42,21 @@ public class VenueDetailActivity extends Activity {
         initButtons();
         initImage();
     }
+
+    @DebugLog
+    protected void onStart() { super.onStart();}
+
+    @DebugLog
+    protected void onResume() { super.onResume();}
+
+    @DebugLog
+    protected void onPause() { super.onPause();}
+
+    @DebugLog
+    protected void onStop() { super.onStop();}
+
+    @DebugLog
+    protected void onDestroy() { super.onDestroy();}
 
     private void initImage() {
         Picasso.with(this).load("http://i.imgur.com/DvpvklR.png").into(detailsImage);
